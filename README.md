@@ -1,2 +1,4 @@
 # Mixed_vae
-Variational autoencoder for mixed multivariate data
+tensorflow 2 and tensorflow implementation of variational autoencoder(VAE) for mixed multivariate data.
+
+[Example use](Notebooks/example_use.md)
