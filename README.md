@@ -1,4 +1,4 @@
 # Mixed_vae
-Tensorflow 2 and Tensorflow probabilty implementation of variational autoencoder(VAE) for mixed multivariate data.
+Tensorflow 2 and Tensorflow probability implementation of variational autoencoder(VAE) for mixed multivariate data.
 
 [Example use](Notebooks/example_use.md)
