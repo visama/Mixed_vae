@@ -159,7 +159,7 @@ def training_loop_no_epochs_B_loss(model, X, nro_batches, batch_size, optimizer_
                 for m_sample in range(M_samples):
                     b_loss = b_loss + Bhattacharyya_distance_total(X, x_output, model, variable_types) / M_samples
                 B_loss.append(b_loss)
-                print(b_loss)
+                #print(b_loss)
             batch += 1
         ###One epoch
     return(model, losses, B_loss)
