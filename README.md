@@ -1,6 +1,6 @@
 # Mixed-data vae
 
-Tensorflow 2 and Tensorflow probability implementation of variational autoencoder(VAE) for mixed multivariate data.
+Tensorflow 2 and Tensorflow probability implementation of variational autoencoder(VAE) for mixed multivariate data. I'm planning to add more notebooks during the summer. Topics could be hyperparameter tuning, medical diagnosis representation learning etc.
 
 Autoencoders are a combination of two neural networks encoder and decoder. Encoder takes the input data and creates a lower dimensional representation of it. Decoder takes the representation and creates a reconstruction of the original data from it.
 
@@ -22,3 +22,4 @@ Now one can calculate probabilities for the original data given the newly parame
 
 ## Notebooks
 [Preprocessing](https://visama.github.io/Mixed_vae/Preprocessing.html)
+[Fitting the model](https://visama.github.io/Mixed_vae/Fitting_the_model.html)
