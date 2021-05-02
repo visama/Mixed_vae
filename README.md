@@ -24,3 +24,5 @@ Now one can calculate probabilities for the original data given the newly parame
 [Preprocessing](https://visama.github.io/Mixed_vae/Preprocessing.html)
 
 [Fitting the model](https://visama.github.io/Mixed_vae/Fitting_the_model.html)
+
+[Mixed-vae model methods](https://visama.github.io/Mixed_vae/mixed_vae_class.html)
