@@ -19,3 +19,6 @@ Loss function also includes a reconstruction error. Decoder has to learn to crea
 Now one can calculate probabilities for the original data given the newly parametrized distribution. If the probability is high the reconstruction is successful.
 
 * Loss = f(theta, X)
+
+## Notebooks
+[Preprocessing](https://visama.github.io/Mixed_vae/Preprocessing.html)
