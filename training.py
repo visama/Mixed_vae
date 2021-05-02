@@ -6,6 +6,8 @@ Created on Sat Apr  3 15:41:30 2021
 """
 import tensorflow as tf
 from data_processing import shuffle_dictionary, dict_to_array
+from Bhattacharyya_distance import Bhattacharyya_distance_total
+import numpy as np
 
 #Function for training loop
 def training_loop(model, X, epochs, batch_size, optimizer_learning_rate, x_input, x_output): #Lisäparametrejä epsilon, delta, optimizer
@@ -117,7 +119,7 @@ def training_loop_B_loss(model, X, epochs, batch_size, optimizer_learning_rate, 
 
 
 #data quality loss in loop
-def training_loop_no_epochs_B_loss(model, X, nro_batches, batch_size, optimizer_learning_rate, x_input, x_output, M_samples = 1): #Lisäparametrejä epsilon, delta, optimizer
+def training_loop_no_epochs_B_loss(model, X, nro_batches, batch_size, optimizer_learning_rate, x_input, x_output, variable_types, M_samples = 1): #Lisäparametrejä epsilon, delta, optimizer
     X_input = x_input
     X_dict = x_output
     n = X_input.shape[0]
